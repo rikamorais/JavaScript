@@ -1,0 +1,54 @@
+.btn-outline-success {
+    background-color: #fff;
+    border: 1px solid green;
+    color: green;
+    border-radius: 4px;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.conteudo-modal {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.cabecalho-modal {
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+.cabecalho-modal .cabecalho-titulo-modal {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.cabecalho-modal .cabecalho-modal-fechar {
+    padding: 20px 10px;
+    cursor: pointer;   
+}
+.corpo-modal {
+    padding: 1px 8px 8px 8px;
+    /* width: 100%; */
+}
+.rodape-modal {
+    border-top: 1px solid #eee;
+    padding: 8px;
+}

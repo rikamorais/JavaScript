@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn-outline-success" onclick="abrirModal('vis-modal')">Abrir Modal</button>
+        <div id="vis-modal" class="modal">
+            <div class="conteudo-modal">
+                <div class="cabecalho-modal">
+                    <h1 class="cabecalho-titulo-modal">Visualizar</h1>
+                    <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">&times;</span>
+                </div>
+                <div class="corpo-modal">
+                    <p>
+                        Lorem ipsum dolor sit amet.
+                        Vitae ex inventore aspernatur placeat!
+                        Ullam ipsa qui labore atque!
+                        Fugiat, aliquid. Cupiditate, vitae alias.
+                        Quaerat sit hic explicabo inventore!
+                    </p>
+                </div>
+                <div class="rodape-modal">
+                    <button class="btn-outline-success" onclick="fecharModal('vis-modal')">Fechar</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+#section-1 {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: "Roboto Condensed";
+}
+
+div#cor-de-fundo {
+    display: flex;
+    font-family: "Roboto Condensed";
+    margin-top: 20px;
+    gap: 10px;
+}
+

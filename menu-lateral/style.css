@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Quicksand:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:active, a:visited {
+    color: #e0e0e0;
+}
+
+section#menu-lateral {
+    display: flex;
+}
+div#menu {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+    color: #e0e0e0;
+    font-family: "Playpen Sans";
+    font-size: 20px;
+    position: fixed;
+    box-shadow: 9px 1px 6px -7px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 9px 1px 6px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: 9px 1px 6px -7px rgba(0,0,0,0.57);
+    overflow: hidden;
+    transition: all 1s ease;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+div#menu.expandir {
+    width: 250px;
+    transition: all 1s ease;
+}
+.fa-bars {
+    margin-top: 15px;
+    cursor: pointer;
+}
+.icon {
+    color: #e0e0e0;
+}
+.icon:hover {
+    color: #000;
+}
+span.span-nav {
+    margin-left: 23px;
+}
+span.span-nav:hover {
+    color: #000;
+}
+ul li.item-menu {
+    padding: 5px 0 5px 20px;
+}
+ul li:hover {
+    background-color: #fff;
+    color: #000!important;
+    transition: 0.5s;
+}
+/* li.link-ativo {
+    background-color: #fff;
+    color: #000;
+}
+li.link-ativo i {
+    color: #000;
+} */
+
+@media (max-width: 430px) {
+    div#menu {
+        height: 50px;
+    }
+    div#menu.expandir-mobile {
+        width: 200px;
+        height: 350px;
+        transition: all 1s ease;
+    }
+}
